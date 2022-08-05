@@ -1,1 +1,126 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    min-width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.general {
+    width: 1000px;
+    border: 2px solid black;
+}
+.jobs_date {
+    width: 30%;
+    float: left;
+}
+.jobs_place {
+    width: 70%;
+    float: left;
+}
+.jobs {
+    /* overflow-y: auto; */
+    width: 100%;
+    /* height: 200px; */
+}
+.jobs_place p {
+    margin: 0px 0px 10px 10px;
+}
+
+.img {
+    width: 230px;
+    height: 230px;
+    background: url("../images/photo1.jpg");
+    background-size: cover;
+    border-radius: 15% 15% 0% 15%;
+    position: relative;
+    left: 25px;
+    top: -10px;
+    float: left;
+    margin-right: 30px;
+}
+
+.left_engle {
+    height: 250px;
+    width: 600px;
+    float: left;
+}
+
+.right_engel {
+    width: 300px;
+    height: calc(100% - 35px);
+    float: right;
+}
+.content {
+    width: 600px;
+    
+}
+
+.fio {
+    float: right;
+}
+
+h3 {
+    margin: 5px 0px 5px 20px;
+}
+h4 {
+    margin-top: 15px;
+}
+.jobs_place h4{
+    text-align: center;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 45px;
+    background: rgb(134, 180, 255);
+    text-align: center;
+}
+
+table,
+p,
+ul {
+    margin-left: 35px;
+}
+
+span {
+    position: relative;
+    bottom: 10px;
+}
+
+hr {
+    background-color: rgb(134, 180, 255);
+    border: 1px solid rgb(134, 180, 255);
+    max-width: 80%;
+}
+
+table {
+    text-align: left;
+}
+
+li {
+    margin-left: -15px;
+    padding: 0px 0px 5px 0px;
+}
+
+ul {
+    margin-top: 0px;
+}
+
+.course {
+    color: rgb(210, 95, 95);
+    font-weight: bold;
+}
+
+.table_3 {
+    display: inline-table;
+    margin-left: 25px;
+}
+
+img {
+    width: 28px;
+    height: auto;
+}
